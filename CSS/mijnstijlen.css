@@ -1,0 +1,71 @@
+/* ALgemene opmaak: de opmaak die geldig is voor alles op mijn webpagina */
+body{
+/*background-image zorgt voor een achtergrondfoto op mijn pagina als url geef ik het pad op waar de foto zich bevindt */
+    background-image: url(../images/achtergrond.jpg);
+/* drie lettertypes, als Calibri neit wordt ondersteund, gebruiken we arial, als arial niet wordt ondersteudn gebruiken wee sans-serif */
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 16px;
+    /* justify = uitlijnen*/
+    text-align: justify;
+}
+
+#container{
+background-color: white;
+/*boven onder 0px links en rechts auto */
+margin: 0px auto;
+/* de container mag maximaal een breedte hebben van 1 200 px. */
+max-width: 1200px;
+width: 100%;
+}
+
+header img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+ 
+}
+nav{
+    border-bottom: rgb(201,201,201) solid 1px;
+    overflow: hidden;
+
+}
+.item{
+    float: left;
+
+    border: 1px solid black;
+    border-radius: 5px 5px 0px 0px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px 5px ;
+    font-size: 21px;
+
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
+aside p, aside table{
+    background-color:orange ;
+    width: 25%;
+}
+aside{
+    width:100%;
+    text-align: center;
+}
+aside h1{
+    text-align: center;  
+    color: orange;
+}
+main{
+    float: right;
+    width: 70%;
+}
+main h1{
+    color: orange;
+    text-align: center; 
+}
+.lastminute{
+    text-align: center;
+    border-bottom: solid 1px black
+}
